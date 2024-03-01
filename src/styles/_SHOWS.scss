@@ -2,14 +2,15 @@
 
 .shows {
     padding: 2vw 5.6;
+    min-height: 50vw;
 
     &__list {
         margin-top: 44px;
-        display: grid;
+        display: none;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 24px;
 
-        &--is--active {
+        &--is-active {
             display: grid;
         }
 
