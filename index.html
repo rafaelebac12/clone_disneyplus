@@ -7,11 +7,26 @@
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="/dist/images/disneyplus.svg" alt="Disney+">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">Assine agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
     <section class="hero">
         <div class="hero__content">
-            <h1 class="hero__content__branding">
+            <div class="hero__content__branding">
                 <img src="/dist/images/disneyplus.svg" alt="Disney+">
-            </h1>
+            </div>
             <h3 class="title--small">
                 As melhores histórias em um só lugar.
             </h3>
@@ -138,6 +153,152 @@
     *O preço pode variar caso a assinatura seja feita atraves de outras plataformas.
 </p>
 </section>
+<section class="image-text-section">
+    <img src="./dist/images/tv_pc_tablet_celular.png" alt="imagem com tv, computado, tablet e celular">
+    <div class="image-text-section__text_container">
+        <h2 class="title">Assita do seu jeito.</h2>
+        <p class="text--big">
+            Aproveite a tela grande da tv ou assista no tablet, laptop. celular e outros aparelhos. Nossa seleção de títulos em 4K não para de crescer. Além disso, para a felicidade de todos, é possivel em até 4 telas ao mesmo tempo
+        </p>
+    </div>
+</section>
+<section class="image-text-section image-text-section--image-full-width">
+    <picture>
+        <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png" />
+    <img src="./dist/images/fundo_rei_leao.png" alt="Rei Leão">
+    </picture>
+    <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
+        <h2 class="title">Baixe filmes e séries.</h2>
+        <p class="text--big">
+            Aproveite a tela grande da tv ou assista no tablet, laptop. celular e outros aparelhos. Nossa seleção de títulos em 4K não para de crescer. Além disso, para a felicidade de todos, é possivel em até 4 telas ao mesmo tempo
+        </p>
+    </div>
+</section>
+<section class="available-devices">
+    <h2 class="title">Disponivel nos seus dispositivos favoritos</h2>
+    <ul class="available-devices__list">
+        <li class="available-devices__list__item">
+            <img src="/dist/images/dispositivos/computador.png" alt="Computador">
+            <h4 class="title--small">Computador</h4>
+            <ul class="text">
+                <li>Chrome OS</li>
+                <li>macOS</li>
+                <li>PC Windows</li>
+            </ul>
+        </li>
+        <li class="available-devices__list__item">
+            <img src="/dist/images/dispositivos/tv.png" alt="tv">
+            <h4 class="title--small">TV</h4>
+            <ul class="text">
+                <li>Amazon</li>
+                <li>Android</li>
+                <li>Apple TV</li>
+            </ul>
+        </li>
+        <li class="available-devices__list__item">
+            <img src="/dist/images/dispositivos/videogames.png" alt="videogames">
+            <h4 class="title--small">Video Games</h4>
+            <ul class="text">
+                <li>PS5</li>
+                <li>PS4</li>
+                <li>Xbox Series S</li>
+            </ul>
+        </li>
+        <li class="available-devices__list__item">
+            <img src="/dist/images/dispositivos/celular.png" alt="celular">
+            <h4 class="title--small">Celurar e tablet</h4>
+            <ul class="text">
+                <li>Tablet Amazon Fire</li>
+                <li>Celulares e tablets android</li>
+                <li>Iphone e Ipad</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+<section class="faq">
+    <h2 class="title">Perguntas Frequentes</h2>
+    <ul class="faq__questions">
+        <li class="faq__questions__item">
+            <div class="faq__questions__item__question" data-faq-question>
+                O que está incluído no Disney+
+            </div>
+            <div class="faq__questions__item__answer text--big">
+                <p>Experiencia premium sem intervalos comerciais</p>
+                <br>
+                <p>As melhores historias da Disney,pixa,marvel</p>
+                <br>
+                <p>Groupwatch assista junto com os amigos</p>
+            </div>
+        </li>
+        <li class="faq__questions__item ">
+            <div class="faq__questions__item__question" data-faq-question>
+                Já tem o Disney+ ou o Star+ e quer o Combo+?
+            </div>
+            <div class="faq__questions__item__answer text--big">
+                A resposta
+            </div>
+        </li>
+        <li class="faq__questions__item">
+            <div class="faq__questions__item__question" data-faq-question>
+                Quais formas de pagamento posso utilizar?
+            </div>
+            <div class="faq__questions__item__answer text--big">
+                A resposta
+            </div>
+        </li>
+        <li class="faq__questions__item">
+            <div class="faq__questions__item__question" data-faq-question>
+                Como posso ver conteúdo com classificaçao indicativa 16 a 18?
+            </div>
+            <div class="faq__questions__item__answer text--big">
+                A resposta
+            </div>
+        </li>
+    </ul>
+</section>
+<footer class="footer">
+    <div class="footer__container">
+        <img class="footer__logo" src="/dist/images/disneyplus.svg" alt="Disney+">
+        <ul class="footer__links">
+            <li class="footer__links__item">
+                <div class="language-selector">
+                    <img src="/dist/images/icones/globe.svg" alt="Globo do mundo">
+                <select>
+                    <option>English</option>
+                    <option selected>Portugues</option>
+                </select>
+                </div>
+            </li>
+            <li class="footer__links__item">
+                <a href="#" class="text--big">Termos e Condições de uso</a>
+            </li>
+            <li class="footer__links__item">
+                <a href="" class="text--big">Politica de privacidade</a>
+            </li>
+            <li class="footer__links__item">
+                <a href="#" class="text--big">Proteção de Dados no Brasil</a>
+            </li>
+            <li class="footer__links__item">
+                <a href="#" class="text--big">Anúncios personalizado</a>
+            </li>
+            <li class="footer__links__item">
+                <a href=""  class="text--big">dispositivos compátiveis</a>
+            </li>
+            <li class="footer__links__item">
+                <a href="#" class="text--big">Ajuda</a>
+            </li>
+            <li class="footer__links__item">
+                <a href="" class="text--big" >Sobre o Disney+</a>
+            </li>
+        </ul>
+        <p class="text--big">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita amet delectus, molestias ab iste ea quod aperiam eaque fugiat alias eum impedit autem saepe sed aut quis temporibus nulla minima?
+        </p>
+        <p class="text--big">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquid provident placeat quo qui quis tempore esse eum, sit, soluta iure. Ipsum nam eius rem laboriosam in vero aliquam atque?
+        </p>
+    </div>
+</footer>
 <script src="/src/main.js"></script>
 </body>
 </html>
